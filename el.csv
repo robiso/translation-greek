@@ -1,0 +1,89 @@
+OVERLAYS
+    ">Saving","> Αποθήκευση"
+    ">Checking for updates",">Έλεγχος ενημερώσεων"
+
+
+BUTTONS
+    "> Settings","> Ρυθμίσεις"
+
+
+MENU ITEMS
+    ">Current page",">Υπάρχουσα σελίδα"
+    ">Menu",">Μενού"
+    ">Files",">Αρχεία"
+    ">Themes",">Θέματα"
+    ">Plugins",">Πρόσθετα"
+    ">Security",">Ασφάλεια"
+
+
+CURRENT PAGE
+    ">Page title",">Τίτλος σελίδας"
+    ">Page keywords",">Λέξεις κλειδιά"
+    ">Page description",">Περιγραφή σελίδας"
+    "> Delete page","> Διαγραφή σελίδας"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Διαγραφή $1?')"
+
+
+MENU
+    ">Website title","> Τίτλος ιστότοπου"
+    ">Page to display on homepage","> Σελίδα που θα εμφανίζεται ως αρχική"
+    ">visit",">επίσκεψη"
+    "> Add page","> Προσθήκη σελίδας"
+
+
+FILES
+    ">Upload","> Ανέβασμα"
+    ">Delete files","> Διαγραφή αρχείων"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> Έλεγχος ενημερώσεων"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Αφαίρεση $1?')"
+    ">Active",">Ενεργό"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Ενεργοποίηση $1?')"
+    "> Activate","> Ενεργοποίηση"
+    "> More info","> Περισσότερα"
+    "> Install","> Εγκαταάσταση"
+    ">Installed version:",">Εγκατάσταση έκδοσης:"
+    ">Custom repository",">Προσαρμοσμένο αποθετήριο(repository)"
+    "Enter URL to custom repository","Δώστε URL για το αποθετήριο"
+    "> Add", "> Προσθήκη"
+    "> Read more about custom repositories",">Διαβάστε περισσότερα για τα προσαρμοσμένα αποθετήρια"
+
+
+SECURITY
+    ">Admin login URL","> URL login Διαχειριστή"
+    ">Save your login URL to log in to your website next time:",">Αποθηκεύστε το URL σύνδεσης για να συνδεθείτε στον ιστότοπό σας την επόμενη φορά:"
+    ">Password",">Κωδικός εισόδου"
+    "Old password","Παλιός κωδικός εισόδου"
+    "New password","Νέος κωδικός εισόδου"
+    "> Change password","> Αλλαγή κωδικού εισόδου"
+
+    "> How to restore backup","> Πώς να επαναφέρετε το αντίγραφο ασφαλείας"
+    ">Improved security \(Apache only\)",">Βελτιωμένη ασφάλεια (μόνο για Apache serverji)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Ανακατεύθυνση HTTPS, προσωρινή αποθήκευση 30 ημερών, τα iframes επιτρέπονται μόνο από την ίδια πηγή."
+    ">ON \(warning: may break your website\)",">ON \(προειδοποίηση: ενδέχεται να χαλάσει τον ιστότοπό σας)"
+    ">OFF \(reset htaccess to default\)",">OFF \(επαναφορά του htaccess στην προεπιλογή)"
+    "> Read more before enabling","> Διαβάστε περισσότερα πριν την ενεργοποίηση"
+    ">Backup","> Αντίγραφα ασφαλείας"
+    "> Backup website","> Αντίγραφο ασφαλείας ιστότοπου"
+    ">Last 5 logins",">Τελευταία 5 logins"
+
+
+STATISTICS
+    ">Statistics",">Στατιστικά"
+    ">Today",">Σήμερα"
+    ">This week",">Αυτή την εβδομάδα"
+    ">Most popular page",">Δημοφιλέστερη σελίδα"
+    ">Pageviews last two weeks",">Εμφανίσεις σελίδας τελευταίες 2 εβδομάδες"
+    ">Sessions last two weeks",">Συνδέσεις τελευταίες 2 εβδομάδες"
+    ">Sessions",">Συνδέσεις"
+    ">Pageviews",">Εμφανίσεις σελίδας"
+
+
+FOOTER
+    ">News",">Ειδήσεις"
+    ">Community",">Φόρουμ"
+    ">Docs",">Κείμενα"
+    ">Donate",">Δωρεά"
+    ">Shop\/Merch",">Κατάστημα"
