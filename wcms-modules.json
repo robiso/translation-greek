@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "translation-greek": {
+            "name": "Translation Greek",
+            "repo": "https://github.com/robiso/translation-greek/tree/main",
+            "zip": "https://github.com/robiso/translation-greek/archive/main.zip",
+            "summary": "Greek translation for WonderCMS settings.",
+            "version": "3.0.3",
+            "image": "https://raw.githubusercontent.com/robiso/translation-greek/main/preview.jpg"
+        }
+    }
+}
