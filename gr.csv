@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Ρυθμίσεις"
+    "return confirm\('Log out\?'\)","return confirm('Αποσύνδεση;')"
 
 
 MENU ITEMS
@@ -21,14 +22,18 @@ CURRENT PAGE
     ">Page keywords",">Λέξεις κλειδιά"
     ">Page description",">Περιγραφή σελίδας"
     "> Delete page","> Διαγραφή σελίδας"
-    "return confirm\('Delete (.*?)\?'\)","return confirm('Διαγραφή $1?')"
-    "data-confirm=""Delete (.*?)\?""","data-confirm=""Διαγραφή $1?"""
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Διαγραφή $1;')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Διαγραφή $1;"""
 
 
 MENU
     ">Website title","> Τίτλος ιστότοπου"
     ">Page to display on homepage","> Σελίδα που θα εμφανίζεται ως αρχική"
     ">visit",">επίσκεψη"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Ορισμός σελίδας ως ιδιωτικής (τη βλέπετε μόνο εσείς όταν είστε συνδεδεμένοι)"""
+    "title=""Make page public""","title=""Ορισμός σελίδας ως δημόσιας"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> ιδιωτική</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> δημόσια</a>"
     "> Add page","> Προσθήκη σελίδας"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Έλεγχος ενημερώσεων"
-    "return confirm\('Remove (.*?)\?'\)","return confirm('Αφαίρεση $1?')"
-    "data-confirm=""Remove (.*?)\?""","data-confirm=""Αφαίρεση $1?"""
+    "title=""Remove this repository from the list""","title=""Αφαίρεση αυτού του αποθετηρίου από τη λίστα"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Αφαίρεση $1; Ό,τι εγκαταστάθηκε από αυτό παραμένει."""
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Αφαίρεση $1;')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Αφαίρεση $1;"""
     ">Active",">Ενεργό"
-    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Ενεργοποίηση $1?')"
-    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Ενεργοποίηση $1?"""
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Ενεργοποίηση $1;')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Ενεργοποίηση $1;"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Απενεργοποίηση $1;"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Αυτό είναι πρόσθετο τύπου $1. Η εγκατάσταση του $2 θα απενεργοποιήσει το $3. Συνέχεια;"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Αυτό είναι πρόσθετο τύπου $1. Η ενημέρωση του $2 θα το διατηρήσει ενεργό και θα απενεργοποιήσει το $3. Συνέχεια;"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Αυτό είναι πρόσθετο τύπου $1. Η ενεργοποίηση του $2 θα απενεργοποιήσει το $3. Συνέχεια;"""
     "> Activate","> Ενεργοποίηση"
     "> More info","> Περισσότερα"
     "> Install","> Εγκατάσταση"
     ">Installed version:",">Εγκατάσταση έκδοσης:"
     ">Custom repository",">Προσαρμοσμένο αποθετήριο(repository)"
     "Enter URL to custom repository","Δώστε URL για το αποθετήριο"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Η προσθήκη άγνωστων αρθρωμάτων μπορεί να είναι ΠΟΛΥ επικίνδυνη. Θέλετε σίγουρα να συνεχίσετε;')"
     "> Add", "> Προσθήκη"
     "> Read more about custom repositories",">Διαβάστε περισσότερα για τα προσαρμοσμένα αποθετήρια"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Ανακατεύθυνση HTTPS, προσωρινή αποθήκευση 30 ημερών, τα iframes επιτρέπονται μόνο από την ίδια πηγή."
     ">ON \(warning: may break your website\)",">ON (προσοχή ενδέχεται να χαλάσει ο ιστότοπος)"
     ">OFF \(reset htaccess to default\)",">OFF (επαναφορά του htaccess στην προεπιλογή)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Είστε σίγουροι; Αυτό μπορεί να χαλάσει τον ιστότοπό σας αν το SSL δεν έχει ρυθμιστεί σωστά.')"
     "> Read more before enabling","> Διαβάστε περισσότερα πριν την ενεργοποίηση"
     ">Backup","> Αντίγραφα ασφαλείας"
     "> Backup website","> Αντίγραφο ασφαλείας ιστότοπου"
