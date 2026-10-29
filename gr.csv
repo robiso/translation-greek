@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description",">Περιγραφή σελίδας"
     "> Delete page","> Διαγραφή σελίδας"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Διαγραφή $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Διαγραφή $1?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Έλεγχος ενημερώσεων"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Αφαίρεση $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Αφαίρεση $1?"""
     ">Active",">Ενεργό"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Ενεργοποίηση $1?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Ενεργοποίηση $1?"""
     "> Activate","> Ενεργοποίηση"
     "> More info","> Περισσότερα"
     "> Install","> Εγκατάσταση"
